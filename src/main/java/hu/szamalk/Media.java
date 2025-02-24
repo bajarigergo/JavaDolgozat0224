@@ -1,4 +1,5 @@
 package hu.szamalk;
+//VEGE
 
 import java.util.UUID;
 

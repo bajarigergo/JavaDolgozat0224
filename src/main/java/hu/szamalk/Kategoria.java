@@ -1,4 +1,5 @@
 package hu.szamalk;
+//VEGE
 
 public class Kategoria {
     private String leiras;
