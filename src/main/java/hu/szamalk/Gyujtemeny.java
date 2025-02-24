@@ -38,7 +38,7 @@ public abstract class Gyujtemeny implements Iterable{
 
 
     public void setGyujtemeny(ArrayList<Media> gyujtemeny) {
-        if (gyujtemeny.size()<6){
+        if (gyujtemeny.size()<6 && !equals(gyujtemeny)){
             this.gyujtemeny = gyujtemeny;
         } else {
             this.gyujtemeny = new ArrayList<>();
